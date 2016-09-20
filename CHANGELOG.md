@@ -1,4 +1,5 @@
 ## 2.0.0
+ * STORM-2018: Supervisor V2
  * STORM-2098: DruidBeamBolt: Pass DruidConfig.Builder as constructor argument
  * STORM-2067: Fix "array element type mismatch" from compute-executors in nimbus.clj
  * STORM-2054: DependencyResolver should be aware of relative path and absolute path
@@ -148,6 +149,7 @@
  * STORM-1769: Added a test to check local nimbus with notifier plugin
 
 ## 1.1.0
+ * STORM-1837: Fix complete-topology and prevent message loss
  * STORM-2092: optimize TridentKafkaState batch sending
  * STORM-1979: Storm Druid Connector implementation.
  * STORM-2057: Support JOIN statement in Storm SQL
