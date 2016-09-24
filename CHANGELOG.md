@@ -1,4 +1,6 @@
 ## 2.0.0
+ * STORM-2117: Supervisor V2 with local mode extracts resources directory to the wrong directory
+ * STORM-2110: strip out empty String in worker opts
  * STORM-2100: Fix Trident SQL join tests to not rely on ordering
  * STORM-2018: Supervisor V2
  * STORM-2098: DruidBeamBolt: Pass DruidConfig.Builder as constructor argument
@@ -150,6 +152,9 @@
  * STORM-1769: Added a test to check local nimbus with notifier plugin
 
 ## 1.1.0
+ * STORM-2078: enable paging in worker datatable
+ * STORM-1664: Allow Java users to start a local cluster with a Nimbus Thrift server.
+ * STORM-1872: Release Jedis connection when topology shutdown
  * STORM-1837: Fix complete-topology and prevent message loss
  * STORM-2092: optimize TridentKafkaState batch sending
  * STORM-1979: Storm Druid Connector implementation.
@@ -195,6 +200,11 @@
  * STORM-1868: Modify TridentKafkaWordCount to run in distributed mode
 
 ## 1.0.3
+ * STORM-2120: Emit to _spoutConfig.outputStreamId
+ * STORM-2101: fixes npe in compute-executors in nimbus
+ * STORM-2090: Add integration test for storm windowing
+ * STORM-2003: Make sure config contains TOPIC before get it
+ * STORM-1567: in defaults.yaml 'topology.disable.loadaware' should be 'topology.disable.loadaware.messaging'
  * STORM-1987: Fix TridentKafkaWordCount arg handling in distributed mode.
  * STORM-1969: Modify HiveTopology to show usage of non-partition table.
  * STORM-1849: HDFSFileTopology should use the 3rd argument as topologyName
