@@ -155,6 +155,8 @@
  * STORM-1769: Added a test to check local nimbus with notifier plugin
 
 ## 1.1.0
+ * STORM-2066: make error message in IsolatedPool.java more descriptive
+ * STORM-1870: Allow FluxShellBolt/Spout set custom "componentConfig" via yaml
  * STORM-2126: fix NPE due to race condition in compute-new-sched-assign…
  * STORM-2089: Replace Consumer of ISqlTridentDataSource with SqlTridentConsumer
  * STORM-2118: A few fixes for storm-sql standalone mode
@@ -207,6 +209,7 @@
  * STORM-1868: Modify TridentKafkaWordCount to run in distributed mode
 
 ## 1.0.3
+ * STORM-2040: Fix bug on assert-can-serialize
  * STORM-2017: ShellBolt stops reporting task ids
  * STORM-2119: bug in log message printing to stdout
  * STORM-2120: Emit to _spoutConfig.outputStreamId
