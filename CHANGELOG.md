@@ -1,4 +1,6 @@
 ## 2.0.0
+ * STORM-2131: Add blob command to worker-launcher, make stormdist directory not writeable by topo owner
+ * STORM-2144: Fix Storm-sql group-by behavior in standalone mode
  * STORM-1546: Adding Read and Write Aggregations for Pacemaker to make it HA compatible
  * STORM-2124: show requested cpu mem for each component
  * STORM-2109: Treat Supervisor CPU/MEMORY Configs as Numbers
@@ -156,6 +158,7 @@
  * STORM-1769: Added a test to check local nimbus with notifier plugin
 
 ## 1.1.0
+ * STORM-2097: Improve logging in trident core and examples
  * STORM-2066: make error message in IsolatedPool.java more descriptive
  * STORM-1870: Allow FluxShellBolt/Spout set custom "componentConfig" via yaml
  * STORM-2126: fix NPE due to race condition in compute-new-sched-assign…
