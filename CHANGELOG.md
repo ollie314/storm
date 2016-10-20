@@ -1,4 +1,7 @@
 ## 2.0.0
+ * STORM-2012: Upgrade Kafka to 0.8.2.2
+ * STORM-2142: ReportErrorAndDie runs suicide function only when InterruptedException or InterruptedIOException is thrown
+ * STORM-2134: improving the current scheduling strategy for RAS
  * STORM-2131: Add blob command to worker-launcher, make stormdist directory not writeable by topo owner
  * STORM-2144: Fix Storm-sql group-by behavior in standalone mode
  * STORM-1546: Adding Read and Write Aggregations for Pacemaker to make it HA compatible
@@ -216,6 +219,7 @@
  * STORM-1868: Modify TridentKafkaWordCount to run in distributed mode
 
 ## 1.0.3
+ * STORM-2127: Storm-eventhubs should use latest amqp and eventhubs-client versions 
  * STORM-2040: Fix bug on assert-can-serialize
  * STORM-2017: ShellBolt stops reporting task ids
  * STORM-2119: bug in log message printing to stdout
